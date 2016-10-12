@@ -31,7 +31,7 @@ var nameOfCountry = process.argv[2]
 //part 2
 
 
-countryinfo('filename', function (obj) {
+countryinfo(__dirname+'/countries.json', function (obj) {
 	for (var i=0; i<obj.length; i++)
 		if (obj[i].name === nameOfCountry){
 			console.log( 'Country: ' + obj[i].name + "\n" + 'Top Level Domain: ' + obj[i].topLevelDomain)
