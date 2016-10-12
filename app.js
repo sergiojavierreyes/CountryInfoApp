@@ -15,7 +15,7 @@ var countryinfo = require (__dirname + '/countryinfo')
 var nameOfCountry = process.argv[2]
 
 
-
+// Part 1
 
 // fs.readFile(__dirname +'/countries.json', function(err,data) {
 // 	if(err) throw err
@@ -27,6 +27,8 @@ var nameOfCountry = process.argv[2]
 
 // 	})
 
+
+//part 2
 
 
 countryinfo('filename', function (obj) {
