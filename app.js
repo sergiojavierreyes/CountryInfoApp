@@ -11,6 +11,7 @@
 
 
 var fs = require('fs')
+
 var nameOfCountry = process.argv[2]
 
 fs.readFile(__dirname +'/countries.json', function(err,data) {
