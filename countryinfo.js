@@ -17,7 +17,7 @@
 var fs = require('fs')
 
 var readParse = function ( filename, callback ) {
-	fs.readFile(__dirname +'/countries.json', function(err,data){
+	fs.readFile('filename', function(err,data){
 		if (err) throw err
 		var obj = JSON.parse(data)
 		callback(obj)
